@@ -13,7 +13,7 @@ body {
 .matrix img {
     width: 100%;
 }
-.matrix .matrix-info {
+.matrix-info {
     font-family: fantasy, cursive;
 }
 
@@ -88,7 +88,7 @@ label[for="new-task"] {
     display: block;
     margin: 0 0 20px;
 }
-input#new-task {
+#new-task {
     width: 318px;
 }
 
@@ -106,7 +106,7 @@ li > * {
     vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+input[type="checkbox"] {
     margin: 0 10px;
 }
 li > label {
@@ -115,7 +115,7 @@ li > label {
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
+li > input[type="text"] {
     width: 226px
 }
 button.delete img {
@@ -129,20 +129,20 @@ button.delete img:hover {
 
 /* Completed */
 ul#compl-tasks label {
-    text-decoration: line-through;
+    text-decoration: line-through
     color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+li input[type=text] {
     display:none
 }
 
-ul li.edit-mode input[type=text] {
+li.edit-mode input[type=text] {
     display:inline-block;
     width:224px
 }
 
-ul li.edit-mode label {
+li.edit-mode label {
     display:none;
 }
